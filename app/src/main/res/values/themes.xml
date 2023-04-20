@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WallpaperOffline" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#3e4560</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">?attr/colorPrimaryVariant</item>
+        <!-- Primary brand color. -->
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/primary</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/primary_dark</item>
+    </style>
+
+    <style name="navigationTheme">
+
+        <item name="colorPrimary">@color/primary</item>
+
+        <item name="colorControlHighlight"> @color/white</item>
+    </style>
+
+</resources>

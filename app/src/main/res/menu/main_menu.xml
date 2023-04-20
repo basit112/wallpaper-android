@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+             android:title="@string/home"
+            android:icon="@drawable/ic_home_black"/>
+        <item android:id="@+id/search"
+            android:title="@string/refresh"
+            android:icon="@drawable/ic_refresh"/>
+    </group>
+
+<!--    <item android:title="@string/categories">-->
+<!--        <menu>-->
+<!--            <group android:checkableBehavior="single">-->
+<!--                <item android:id="@+id/mix_menu"-->
+<!--                    android:title="@string/mix_wallpapers"-->
+<!--                    />-->
+<!--                <item android:id="@+id/animal_menu"-->
+<!--                    android:title="@string/animals"-->
+<!--                    />-->
+<!--                <item android:id="@+id/city_menu"-->
+<!--                    android:title="@string/city"-->
+<!--                    />-->
+<!--                <item android:id="@+id/technology_menu"-->
+<!--                    android:title="@string/technology"-->
+<!--                    />-->
+<!--                <item android:id="@+id/flowers_menu"-->
+<!--                    android:title="@string/flowers"-->
+<!--                    />-->
+<!--                <item android:id="@+id/nature_menu"-->
+<!--                    android:title="@string/nature"-->
+<!--                    />-->
+<!--                <item android:id="@+id/quotes_menu"-->
+<!--                    android:title="@string/quotes"-->
+<!--                    />-->
+<!--            </group>-->
+<!--        </menu>-->
+<!--    </item>-->
+    <item android:title="@string/share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:id="@+id/share_app"
+                    android:title="@string/share"
+                    android:icon="@drawable/ic_share_black"
+                    />
+                <item android:id="@+id/rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/ic_rate_us_black"
+                    />
+                <item android:id="@+id/privacy_policy"
+                    android:title="@string/privacy_policy"
+                    android:icon="@drawable/privacy"
+                    />
+                <item android:id="@+id/more_apps"
+                    android:title="@string/more_apps"
+                    android:icon="@drawable/more_apps"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
